@@ -10,7 +10,14 @@
 
 <body>
   <label for="GHU">GitHub Username:</label>
-  <input type="text" id="GHU" ghu="GHU" placeholder="BinaryDex" required>
+  <input type="text" id="GHU" ghu="GHU" placeholder="BinaryDex">
+  <button onclick="myFunction()">Try it</button>
+    
+  <script>
+    function myFunction() {
+        document.getElementById("GHU").value = "Test String";
+    }
+  </script>
 </body>
 
 </html>
